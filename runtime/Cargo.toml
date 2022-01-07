@@ -52,8 +52,9 @@ std = [
     'sp-session/std',
     'sp-std/std',
     'sp-transaction-pool/std',
-    'sp-version/std',
-	'pallet-kitties/std',
+    'sp-version/std'
+
+	
 ]
 [dependencies.codec]
 default-features = false
@@ -138,9 +139,7 @@ default-features = false
 path = '../pallets/template'
 version = '3.0.0'
 
-[dependencies.pallet-kitties]
-default-features = false
-path = '../pallets/kitties'
+
 
 [dependencies.pallet-timestamp]
 default-features = false
